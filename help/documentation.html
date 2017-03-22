@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Page title -->
+	<title>Veil - Documentation</title>
+	<!-- Page description -->
+	<meta name="description" content="">
+	<!-- Meta -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- Include StyleSheets -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<script src="js/modernizr.js"></script>
+</head>
+
+<body class="">
+	<!--[if lt IE 8]>
+	    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+	<!-- Preloader: uncomment this if you want to show a smooth preloader while the page is loading. Don't forget to add the 'js-preload-me' class on the <body> tag. -->
+	<!-- <div class="preloader js-preloader"><div class="preloader-animation"></div></div>
+ -->
+	<!-- End of Preloader -->
+	<div class="page js-page ">
+	
+
+		<div id="content">
+			<div class="container">
+				<div class="layout with-right-sidebar js-layout">
+					<div class="row">
+						<div class="col-md-1"></div>
+						<div class="col-md-10">
+							<div class="main-content">
+		
+					
+
+						<!-- Category Info -->
+						<div class="page-info page-info-simple" id="instant-search">
+							<h1 class="category-title">Documentation
+						
+							</h1>
+							<h2 class="page-description">Browse through our FAQs. If you can't find what you are looking for, please contact us on our Creative Market contact form.</h2>
+						</div>
+						<!-- End of Caregory Info -->
+						
+						<div class="row">
+							<div class="col-md-6">
+								<!-- FAQ Category -->
+								<div class="faq-table-of-contents ">
+									<h3 class="faq-table-of-contents-title">Structure</h3>
+									<ul class="faq-table-of-contents-list">
+										<li>
+											<a href="#" class="js-scroll-to" data-target="#html-structure">What&#39;s the HTML structure?</a>
+										</li>
+										<li>
+											<a href="#" class="js-scroll-to" data-target="#css-structure">What&#39;s the structure of CSS?</a>
+										</li>										
+										<li>
+											<a href="#" class="js-scroll-to" data-target="#js-structure">What&#39;s the structure of JavaScript?</a>
+										</li>
+										<li>
+											<a href="#" class="js-scroll-to" data-target="#file-structure">What&#39;s the structure of the folders and files?</a>
+										</li>
+										
+									</ul>
+								</div>
+								<!-- End of FAQ Category -->
+							</div>
+							<div class="col-md-6">
+								<!-- FAQ Category -->
+								<div class="faq-table-of-contents ">
+									<h3 class="faq-table-of-contents-title">Costumization</h3>
+									<ul class="faq-table-of-contents-list">
+										<li>
+											<a href="#" class="js-scroll-to" data-target="#change-logo">How do I change the logo?</a>
+										</li>
+										<li>
+											<a href="#" class="js-scroll-to" data-target="#change-font">How do I change the font and colors?</a>
+										</li>
+										
+										<li>
+											<a href="#" class="js-scroll-to" data-target="#turn-off-animation">How do I turn off the animation?</a>
+										</li>
+										<li>
+											<a href="#" class="js-scroll-to" data-target="#add-menu-item">How do I add or edit menu items?</a>
+										</li>
+										
+									</ul>
+								</div>
+								<!-- End of FAQ Category -->
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<!-- FAQ Category -->
+								<div class="faq-table-of-contents ">
+									<h3 class="faq-table-of-contents-title">Sources/Credits</h3>
+									<ul class="faq-table-of-contents-list">
+										
+										<li>
+											<a href="#" class="js-scroll-to" data-target="#source-fonts">Is there any custom fonts used?</a>
+										</li>
+										<li>
+											<a href="#" class="js-scroll-to" data-target="#source-javascript">What JavaScript plugins and libraries are used?</a>
+										</li>
+										<li>
+											<a href="#" class="js-scroll-to" data-target="#source-photos">Can I use the photos?</a>
+										</li>
+
+									</ul>
+								</div>
+								<!-- End of FAQ Category -->
+								
+							</div>
+							<div class="col-md-6">
+								<!-- FAQ Category -->
+								<div class="faq-table-of-contents">
+									<h3 class="faq-table-of-contents-title">General</h3>
+									<ul class="faq-table-of-contents-list">
+										<li>
+											<a href="#" class="js-scroll-to" data-target="#contact-info">What is your contact information?</a>
+										</li>
+										
+										<li>
+											<a href="#" class="js-scroll-to" data-target="#wordpress-version">Is there going to be a Wordpress version?</a>
+										</li>
+										<li>
+											<a href="#" class="js-scroll-to" data-target="#what-versions">What's been changed?</a>
+										</li>
+									</ul>
+								</div>
+								<!-- End of FAQ Category -->
+							</div>
+						</div>
+						<h3 class="faq-category-title">Structure</h3>
+						<!-- FAQ Article -->
+						<div class="faq-article" id="html-structure">
+							<h4 class="faq-article-title">What&#39;s the HTML structure?</h4><br />
+							<div class="faq-article-content">
+
+								<ul class="steps">
+									<li class="step">
+										<span class="step-number">1</span>
+										<h4 class="step-title">Page Transition</h4>
+
+										<p>
+										Whenever you open up a page on your browser, you will notice a gray block sliding across the screen before a page is loaded. The following is used for page transitions.
+										</p>
+										<pre><code class="language-markup">&lt;!-- PAGE TRANSITION
+	__________________________________________________________________________________ --&gt;
+	&lt;div class="page-overlay"&gt;&lt;/div&gt;
+	&lt;div class="animsition-overlay"&gt;&lt;/div&gt;
+	&lt;div class="animsition-overlay-veil"&gt;&lt;/div&gt;</code></pre>
+
+									</li>
+									<li class="step">
+										<span class="step-number">2</span>
+										<h4 class="step-title">Header</h4>
+
+										<p>
+										The header contains the logo and the menu items. The menu items are revealed when the "Menu" link is clicked.
+										</p>
+										<pre><code class="language-markup">&lt;!-- HEADER
+	__________________________________________________________________________________ --&gt;
+	&lt;div class="header"&gt;
+		&lt;div class="container-xl"&gt;
+			&lt;a id="logo" href="default-home.html"&gt;Veil&lt;/a&gt;
+			&lt;a id="menu" class="link link-veil" data-letters="Menu" href="#"&gt;Menu&lt;/a&gt;
+		&lt;/div&gt;&lt;!-- // .container-xl --&gt;
+
+		&lt;!-- MENU --&gt;
+		&lt;div class="menu-box"&gt;&lt;!-- This element is toggled to show the menu items --&gt;
+			&lt;div class="menu-box-slide"&gt;&lt;/div&gt;&lt;!-- Gray block that slides down as the menu is shown --&gt;
+			&lt;div class="container-xl"&gt;
+				&lt;div class="col-6 col-lg-2 col-sm-hide"&gt;&lt;/div&gt;
+				&lt;ul class="col-3 col-lg-3 col-sm-2 list menu-list"&gt;
+					&lt;li class="active"&gt;&lt;a data-letters="Index" href="index.html"&gt;Default Home&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a data-letters="Portfolio" href="portfolio.html"&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a data-letters="Parallax Gallery" href="parallax-gallery.html"&gt;Parallax Gallery&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a data-letters="Thumbnail Gallery" href="thumbnail-gallery.html"&gt;Thumbnail Gallery&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a data-letters="About" href="about.html"&gt;About&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a data-letters="Journal" href="journal.html"&gt;Journal&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a data-letters="Typography" href="typography.html"&gt;Typography&lt;/a&gt;&lt;/li&gt;
+				&lt;/ul&gt;	
+				&lt;ul class="col-2 col-lg-2 col-sm-1 list menu-list"&gt;
+					&lt;li&gt;&lt;a data-letters="Instagram" href="#"&gt;Instagram&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a data-letters="Facebook" href="#"&gt;Facebook&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a data-letters="johndoe@website.com" href="#"&gt;johndoe@website.com&lt;/a&gt;&lt;/li&gt;
+				&lt;/ul&gt;
+				&lt;div id="cross"&gt;&lt;!-- X shaped close button for the menu --&gt;
+					&lt;span&gt;&lt;/span&gt;
+					&lt;span&gt;&lt;/span&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;&lt;!-- // .container-xl --&gt;
+		&lt;/div&gt;&lt;!-- // .menu-box --&gt;
+
+	&lt;/div&gt;&lt;!-- // .header --&gt;</code></pre>
+
+									</li>
+									<li class="step">
+										<span class="step-number">3</span>
+										<h4 class="step-title">Fullscreen slider (optional)</h4>
+
+										<p>
+										You can create a touch-based slider with the following code. Please visit <a href="http://idangero.us/swiper/"> the author's site</a> for documentation.
+										</p>
+										<pre><code class="language-markup">	&lt;!-- SWIPER
+	__________________________________________________________________________________ --&gt;
+    &lt;div class="swiper-container"&gt;
+    	&lt;div data-parallax='{"y":1000}' class="overlay from-top col-md-hide"&gt;&lt;/div&gt;
+        &lt;div class="swiper-wrapper default"&gt; &lt;!-- Replace "default" with "fullscreen" for sliders that cover the screen --&gt;
+            &lt;div class="swiper-slide" data-color="#111" data-caption='&lt;a href="parallax-gallery.html"&gt;Enlightenment taste astrological deep cleansing&lt;/a&gt;'&gt;&lt;img src="img/gallery-diver.jpg" alt="" /&gt;&lt;/div&gt;
+            &lt;div class="swiper-slide" data-color="#111" data-caption='&lt;a href="parallax-gallery.html"&gt;Nudist Esalen saturn retrograde promoting positive change&lt;/a&gt;'&gt;&lt;img src="img/gallery-man-tshirt.jpg" alt="" /&gt;&lt;/div&gt;        
+            &lt;div class="swiper-slide" data-color="#111" data-caption='&lt;a href="parallax-gallery.html"&gt;Spirit animal heartbeat of our ancestors fields&lt;/a&gt;'&gt;&lt;img src="img/gallery-staircase.jpg" alt="" /&gt;&lt;/div&gt;
+        &lt;/div&gt;&lt;!-- // .swiper-wrapper .default --&gt;
+        &lt;div class="swiper-footer"&gt;
+            &lt;div class="container-xl"&gt;
+        		&lt;p class="caption"&gt;
+        			&lt;a href="parallax-gallery.html"&gt;Enlightenment taste astrological deep cleansing&lt;/a&gt;
+        		&lt;/p&gt;
+       		&lt;/div&gt;
+      	&lt;/div&gt;&lt;!-- // .swiper-footer --&gt;
+    &lt;/div&gt;&lt;!-- // .swiper-container --&gt;</code></pre>
+
+									</li>
+									<li class="step">
+										<span class="step-number">4</span>
+										<h4 class="step-title">Main Content</h4>
+
+										<p>
+										Review the content in the HTML pages to get familiar with the many variations of pages you can create.
+										</p>
+
+									</li>
+									<li class="step">
+										<span class="step-number">5</span>
+										<h4 class="step-title">Footer</h4>
+
+										<p>
+										The footer contains 2 columns with the first columning aligning flush left and the second column aligning flush right.
+										</p>
+										<pre><code class="language-markup">&lt;!-- FOOTER
+    __________________________________________________________________________________ --&gt;  
+
+    &lt;div class="container-xl footer"&gt;
+        &lt;div class="col-6"&gt;
+            &lt;p&gt;
+                &lt;span class="faint"&gt;Follow&lt;/span&gt; &mdash;&lt;br /&gt;
+                &lt;a href="#"&gt;Twitter&lt;/a&gt;
+                &lt;a href="#"&gt;Facebook&lt;/a&gt;
+            &lt;/p&gt;
+        &lt;/div&gt;  
+        &lt;div class="col-6"&gt;
+            &lt;p class="right"&gt;
+                &lt;a href="#" class="scroll-up"&gt;Scroll up&lt;/a&gt;&lt;br /&gt;
+                &lt;span class="faint"&gt;&copy; 2017 Veil&lt;/span&gt;
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;&lt;!-- // .container-xl .footer --&gt;</code></pre>
+
+									</li>
+
+								</ul>
+							</div>
+						</div>
+						<!-- End of FAQ Article -->
+						<!-- FAQ Article -->
+						<div class="faq-article" id="css-structure">
+							<h4 class="faq-article-title">What&#39;s the structure of CSS?</h4>
+							<div class="faq-article-content">
+								<p>This theme uses a lightweight custom-built responsive CSS Grid System which is in style.css. The following is an index and descriptions of sections in style.css. 
+								It is NOT recommended to change section 1 as it is the core framework. If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p>
+								<pre><code class="language-css">/*	Index
+
+	1. Typebold Framework Settings
+		A. Reset CSS
+		B. HTML, Body
+		C. Containers
+		D. Row and Margin Offsets
+		E. Default Columns
+		F. Positioning and Floats
+
+	2. Custom Global Settings
+		A. Heading, Paragraphs, List, Custom Character Classes
+		B. Links
+		C. Header, Logo, Menu
+		D. Footer
+
+	3. Custom Page Settings
+		A. About
+		B. Gallery V1
+		C. Gallery V2
+		D. Gallery V3
+		E. Project Single
+		F. Journal
+		G. Journal Single
+
+	4. Custom Plugins
+		A. Fullscreen Swiper
+		B. Animated Page Transition
+
+	5. Other Miscellaneous Custom Settings
+
+	6. Typebold Framework Media Queries
+		A. 1240 and Less
+		B. 960 and Less
+		C. 768 and Less
+		D. 540 and Less
+		E. 360 and Less
+
+	7. Custom Media Queries
+		A. 1240 and Less
+		B. 960 and Less
+		C. 768 and Less
+		D. 540 and Less
+		E. 360 and Less
+		F. Retina Optimization
+*/</code></pre>
+							</div>
+						</div>
+						<!-- End of FAQ Article -->
+						<!-- FAQ Article -->
+						<div class="faq-article" id="js-structure">
+							<h4 class="faq-article-title">What's the structure of JavaScript?</h4>
+							<div class="faq-article-content">
+								<p>This theme uses the jQuery library and some plugins. <a href="#" class="js-scroll-to" data-target="#source-javascript">Learn more about the plugins.</a> If you want to add custom JavaScript, use custom.js to add your script. The following sections are custom scripts in custom.js:</p>
+								<pre><code class="language-javascript">$().ready(function() {
+
+
+	/* 1. NAVIGATION
+	----------------------------------------------------------------------------------- */  	
+		
+	// Open menu
+	$('#menu').on('click', function() {
+		$('.menu-box').velocity('slideDown', { duration: 400 },[ 0.11, 0.71, 0.81, 0.71]);
+        setTimeout(function() { 
+            $('.menu-box-slide').addClass('menu-box-slideOut'); 
+            $('#cross').addClass('open'); 
+        }, 100); 
+		return false;
+	});
+
+	// Close menu
+	$('#cross').on('click', function() {
+        $('#cross').removeClass('open'); 
+        setTimeout(function() { 
+            $('.menu-box').velocity('slideUp', { duration: 600 },[ 0.11, 0.71, 0.81, 0.71]);
+            $('.menu-box-slide').removeClass('menu-box-slideOut');
+        }, 400);
+		return false;		
+	});
+    
+
+	/* 2. SWIPER
+	----------------------------------------------------------------------------------- */  
+	
+    // If Photoswiper exists
+    if( $('body').hasClass('hasSwiper') )  {
+	
+        // Initiate Swiper
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1,
+            paginationClickable: true,
+            spaceBetween: 0,
+            keyboardControl: true,
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+        });
+        	
+        // Callback on slide change
+        swiper.on('onSlideChangeEnd', function () {
+        	$activeSlide = $('.swiper-slide-active');
+        	var caption = $activeSlide.attr('data-caption');
+        	var color = $activeSlide.attr('data-color');
+        	
+        	// Change caption
+        	$('.swiper-footer .caption').html(caption);
+        	
+        	// Change text color 
+        	$('.swiper-footer').find('.caption a').css('color',color);
+        	$('.header').find('#logo, #menu').css('color',color);
+    	});
+
+    }
+
+    /* 3. ANIMTATED PAGE TRANSITION
+    ----------------------------------------------------------------------------------- */ 
+
+    // Options
+    $('.animsition-overlay').animsition({
+        inClass: 'overlay-slide-in-right',
+        outClass: 'overlay-slide-out-right',
+        overlay : true,
+        overlayClass : 'animsition-overlay-slide',
+        overlayParentElement : 'body'
+    }).
+    
+    // On start of animation
+    one('animsition.inStart',function(){
+        // $('body').removeClass('bg-init');
+        $('.animsition-overlay-veil').addClass('animsition-overlay-veil-move');
+    }).
+
+    // On end of animation
+    one('animsition.inEnd',function(){
+        
+    });
+
+
+    /* 4. SCROLL TO TOP
+    ----------------------------------------------------------------------------------- */ 
+
+    // Scroll up animation
+    $('.scroll-up').on('click', function(e) {
+        // prevent default action and bubbling
+        e.preventDefault();
+        e.stopPropagation();
+        $('html').velocity("scroll", { duration: 1200, offset: "0", mobileHA: false }); 
+    });
+});
+
+</code></pre>
+							</div>
+						</div>
+						<!-- End of FAQ Article -->
+						<!-- FAQ Article -->
+						<div class="faq-article" id="file-structure">
+							<h4 class="faq-article-title">What's the structure of the folders and files?</h4>
+							<div class="faq-article-content">
+							
+								<!-- File Tree Text -->
+						<ul class="file-tree-text js-file-tree-text">
+							<li>
+								<span class="file-tree-text-name">veil/</span>
+								<ul class="file-tree-text-folder">
+									<li>
+										<span class="file-tree-text-name">css/</span>
+										<ul class="file-tree-text-folder">
+											<li>
+												<span class="file-tree-text-name">animsition.css</span>
+												<span class="file-tree-text-comment">// Page transition animation</span>
+											</li>
+											<li>
+												<span class="file-tree-text-name">linkstyles.css</span>
+												<span class="file-tree-text-comment">// Custom link styles with animation</span>
+											</li>
+											<li>
+												<span class="file-tree-text-name">photoswipe-skin.css</span>
+												<span class="file-tree-text-comment">// Custom skinning for Photoswipe plugin</span>
+											</li>
+											<li>
+												<span class="file-tree-text-name">photoswipe.css</span>
+												<span class="file-tree-text-comment">// Default CSS file for Photoswipe plugin</span>
+											</li>
+											<li>
+												<span class="file-tree-text-name">style.css</span>
+												<span class="file-tree-text-comment">// Main CSS file</span>
+											</li>
+											<li>
+												<span class="file-tree-text-name">swiper.css</span>
+												<span class="file-tree-text-comment">// Default CSS file for fullscreen swiper plugin</span>
+											</li>
+										</ul>
+									</li>
+									
+									<li>
+										<span class="file-tree-text-name">img/</span>
+										
+									</li>
+									<li>
+										<span class="file-tree-text-name">js/</span>
+										<ul class="file-tree-text-folder">
+											<li>
+												<span class="file-tree-text-name">animsition.js</span>
+												<span class="file-tree-text-comment">// Page transition animation</span>
+											</li>
+											<li>
+												<span class="file-tree-text-name">custom.js</span>
+												<span class="file-tree-text-comment">// Use this file for custom JavaScript</span>
+											</li>
+											<li>
+												<span class="file-tree-text-name">jquery.easing.1.3.js</span>
+												<span class="file-tree-text-comment">// Custom easing used in conjunction with parallax scroll</span>
+											</li>
+											<li>
+												<span class="file-tree-text-name">jquery.min.js</span>
+												<span class="file-tree-text-comment">// jQuery</span>
+											</li>
+											<li>
+												<span class="file-tree-text-name">jquery.parallax-scroll.js</span>
+												<span class="file-tree-text-comment">// On vertical scroll effects</span>
+											</li>
+											<li>
+												<span class="file-tree-text-name">photoswipe-initiate.js</span>
+												<span class="file-tree-text-comment">// Initiates Photoswipe plugin</span>
+											</li>
+											<li>
+												<span class="file-tree-text-name">photoswipe-ui-default.js</span>
+												<span class="file-tree-text-comment">// Defaul UI setup for Photoswipe plugin</span>
+											</li>
+											<li>
+												<span class="file-tree-text-name">photoswipe.js</span>
+												<span class="file-tree-text-comment">// Main JavaScript for Photoswipe plugin</span>
+											</li>
+											<li>
+												<span class="file-tree-text-name">swiper.min.js</span>
+												<span class="file-tree-text-comment">// Fullscreen swiper</span>
+											</li>
+											<li>
+												<span class="file-tree-text-name">velocity.min.js</span>
+												<span class="file-tree-text-comment">// JavaScript library for smooth animations</span>
+											</li>
+										</ul>
+									</li>
+									
+									<li>
+										<span class="file-tree-text-name">about.html</span>
+										<span class="file-tree-text-comment">// Minimal about page</span>
+									</li>
+									<li>
+										<span class="file-tree-text-name">default-home.html</span>
+										<span class="file-tree-text-comment">// Default homepage with slider and featured projects</span>
+									</li>
+									<li>
+										<span class="file-tree-text-name">journal.html</span>
+										<span class="file-tree-text-comment">// Blog layout</span>
+									</li>
+									<li>
+										<span class="file-tree-text-name">parallax-gallery.html</span>
+										<span class="file-tree-text-comment">// Parallax gallery with lightbox image viewer.</span>
+									</li>
+									<li>
+										<span class="file-tree-text-name">portfolio.html</span>
+										<span class="file-tree-text-comment">// Portfolio page</span>
+									</li>
+									<li>
+										<span class="file-tree-text-name">project-details.html</span>
+										<span class="file-tree-text-comment">// Detailed project page</span>
+									</li>
+									<li>
+										<span class="file-tree-text-name">single.html</span>
+										<span class="file-tree-text-comment">// Blog single page</span>
+									</li>
+									<li>
+										<span class="file-tree-text-name">thumbnail.html</span>
+										<span class="file-tree-text-comment">// Thumbnail gallery with lightbox image viewer</span>
+									</li>
+									<li>
+										<span class="file-tree-text-name">typography.html</span>
+										<span class="file-tree-text-comment">// Typography usage</span>
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<!-- End of File Tree Text -->
+							</div>
+						</div>
+						<!-- End of FAQ Article -->
+						
+						<h3 class="faq-category-title">Costumization</h3>
+						<!-- FAQ Article -->
+						<div class="faq-article" id="change-logo">
+							<h4 class="faq-article-title">How do I change the logo?</h4>
+							<div class="faq-article-content">
+
+								<p>
+								In the demo, the logo is just text. Open up any of the HTML files and look for the following code and replace "Veil" with the text of your brand name.
+								</p>
+								<pre><code class="language-markup">&lt;a id="logo" href="default-home.html"&gt;Veil&lt;/a&gt;</code></pre><br />
+								<p>
+								To change the font styling of the text logo, do a search for <span class="green">#logo</span> in <span class="blue">css/style.css</span> and edit its CSS properties.
+								</p>
+<pre><code class="language-css">#logo {
+	font-size:1rem;
+	float:left;
+	border:none;
+	letter-spacing:6px;
+	position:relative;
+	z-index:999;
+}</code></pre><br />
+								<p>
+									If you prefer using an image for your logo, you will just need to replace the text logo with an img tag like the following.
+								</p>
+								<pre><code class="language-markup">&lt;a id="logo" href="default-home.html"&gt;&lt;img src="img/your-logo-path.png"&gt;&lt;/a&gt;</code></pre><br />
+
+							</div>
+						</div>
+						<!-- End of FAQ Article -->
+						<!-- FAQ Article -->
+						<div class="faq-article" id="change-font">
+							<h4 class="faq-article-title">How do I change the font and colors?</h4>
+							<div class="faq-article-content">
+								<p>
+								To make a quick global change of the font and text color, go to section 1B. HTML, Body and change the font properties to your preference.
+								</p>
+<pre><code class="language-css">/*	1B. HTML, Body
+	----------------------------------------------------------------------------------  */
+	html, body {
+  		height: 100%;
+  		width: 100%;
+  		margin: 0;
+		color:#111111; 
+		font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+		font-size:21px;
+		font-weight:300;
+		letter-spacing:0.1px;
+		word-spacing:0.5px;
+	}
+</code></pre><br />
+							</div>
+						</div>
+						<!-- End of FAQ Article -->
+						<!-- FAQ Article -->
+						<div class="faq-article" id="turn-off-animation">
+							<h4 class="faq-article-title">How do I turn off the on-scroll animation?</h4>
+							<div class="faq-article-content">
+								<p>On the Default Home page and Portfolio pages, there is an on-scroll animation where the images seem to appear while scrolling. If you prefer not to have this animation on your pages, open up style.css, find .overlay and add the property display:none like the following.</p>
+								<pre><code class="language-css">/* Curtain overlay over content that slides out */
+	.overlay {
+		background:#fff; 
+		width:100%; 
+		height:100%; 
+		position:absolute; 
+		z-index:9;
+		display:none
+	}
+</code></pre><br />
+							</div>
+						</div>
+						<!-- End of FAQ Article -->
+						<!-- FAQ Article -->
+						<div class="faq-article" id="add-menu-item">
+							<h4 class="faq-article-title">How do I add or edit menu items?</h4>
+							<div class="faq-article-content">
+								<p>Inside the menu section of the HTML, add your list of links inside &lt;ul class="col-3 col-lg-3 col-sm-2 list menu-list"&gt; for the first column of links and &lt;ul class="col-2 col-lg-2 col-sm-1 list menu-list"&gt; for the second column of links. Note that the data-letters property inside link tag is needed for animating the on-hover effect.</p>
+								<pre><code class="language-markup">
+		&lt;!-- MENU --&gt;
+		&lt;div class="menu-box"&gt;&lt;!-- This element is toggled to show the menu items --&gt;
+			&lt;div class="menu-box-slide"&gt;&lt;/div&gt;&lt;!-- Gray block that slides down as the menu is shown --&gt;
+			&lt;div class="container-xl"&gt;
+				&lt;div class="col-6 col-lg-2 col-sm-hide"&gt;&lt;/div&gt;
+				&lt;ul class="col-3 col-lg-3 col-sm-2 list menu-list"&gt;
+					&lt;li class="active"&gt;&lt;a data-letters="Link 1" href="link1.html"&gt;Link 1&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a data-letters="Link 2" href="link2.html"&gt;Link 2&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a data-letters="Link 3" href="link3.html"&gt;Link 3&lt;/a&gt;&lt;/li&gt;
+					&lt;!-- Insert your links here --&gt;
+
+				&lt;/ul&gt;	
+				&lt;ul class="col-2 col-lg-2 col-sm-1 list menu-list"&gt;
+					&lt;li class="active"&gt;&lt;a data-letters="Link 1" href="link1.html"&gt;Link 1&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a data-letters="Link 2" href="link2.html"&gt;Link 2&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a data-letters="Link 3" href="link3.html"&gt;Link 3&lt;/a&gt;&lt;/li&gt;
+					&lt;!-- Insert your links here --&gt;		
+
+				&lt;/ul&gt;
+				&lt;div id="cross"&gt;&lt;!-- X shaped close button for the menu --&gt;
+					&lt;span&gt;&lt;/span&gt;
+					&lt;span&gt;&lt;/span&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;&lt;!-- // .container-xl --&gt;
+		&lt;/div&gt;&lt;!-- // .menu-box --&gt;
+</code></pre>
+							</div>
+						</div>
+						<!-- End of FAQ Article -->
+						<h3 class="faq-category-title">Credits</h3>
+						
+						<!-- FAQ Article -->
+						<div class="faq-article" id="source-fonts">
+							<h4 class="faq-article-title">Is there any custom fonts used?</h4>
+							<div class="faq-article-content">
+								<p>Only custom font used is Roboto 300, 400 from the Google Fonts library. The open source fonts in the Google Fonts catalog are published under licenses that allow you to use them on any website, whether it’s commercial or personal. 
+Search queries may surface results from external foundries, who may or may not use open source licenses.</p>
+							</div>
+						</div>
+						<!-- End of FAQ Article -->
+						<!-- FAQ Article -->
+						<div class="faq-article" id="source-javascript">
+							<h4 class="faq-article-title">What JavaScript plugins and libraries are used?</h4>
+							<div class="faq-article-content">
+							<p>The following is a list of JavaScript libraries and jQuery plugins that are used. Visit its websites for documentation.</p>
+								<!-- Table -->
+						<div class="table-responsive">
+							<table class="table">
+								<thead>
+									<tr>
+										<th>Name</th>
+										<th>Description</th>
+										<th>Files Used</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr class="">
+										<th scope="row"><a href="http://git.blivesta.com/animsition/">Animsition</a></th>
+										<td>A simple and easy jQuery plugin for CSS Animated Page Transitions</td>
+										<td>animsition.css, linkstyles.css, animsition.js, jquery.min.js</td>
+									</tr>
+									<tr class="">
+										<th scope="row"><a href="https://github.com/alumbo/jquery.parallax-scroll">jquery.parallax-scroll</a></th>
+										<td>Smooth parallax animations on vertical page scrolling using requestAnimationFrame, CSS3 3D transitions, and jQuery.</td>
+										<td>jquery.parallax-scroll.js, jquery.easing.1.3.js, jquery.min.js</td>
+									</tr>
+									<tr class="">
+										<th scope="row"><a href="http://photoswipe.com/">PhotoSwipe</a></th>
+										<td>A JavaScript gallery with no dependencies.</td>
+										<td>photoswipe-skin.css, photoswipe.css, photoswipe-initiate.js, photoswipe-ui-default.js, photoswipe.js</td>
+									</tr>
+									<tr class="">
+										<th scope="row"><a href="http://idangero.us/swiper/#.WG5s67YrLUI">Swiper</a></th>
+										<td>Touch slider using jQuery.</td>
+										<td>swiper.css, swiper.min.css, swiper.min.js, jquery.min.js</td>
+									</tr>
+									<tr class="">
+										<th scope="row"><a href="http://velocityjs.org/">Velocity</a></th>
+										<td>Accelerated JavaScript animation.</td>
+										<td>velocity.js</td>
+									</tr>
+									<tr class="">
+										<th scope="row"><a href="https://jquery.com//">jQuery</a></th>
+										<td>A fast, small, and feature-rich JavaScript library.</td>
+										<td>jquery.min.js</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- End of Table -->
+							</div>
+						</div>
+						<!-- End of FAQ Article -->
+						<!-- FAQ Article -->
+						<div class="faq-article" id="source-photos">
+							<h4 class="faq-article-title">Can I use the photos?</h4>
+							<div class="faq-article-content">
+								<p>All photos are used from <a href="http://www.unsplash.com">Unsplash.com</a>. All photos published on Unsplash are licensed under Creative Commons Zero which means you can copy, modify, distribute and use the photos for free, including commercial purposes, without asking permission from or providing attribution to the photographer or Unsplash.</p>
+							</div>
+						</div>
+						<!-- End of FAQ Article -->
+
+						<!-- End of FAQ Article -->
+						<h3 class="faq-category-title">General</h3>
+						<!-- FAQ Article -->
+						<div class="faq-article" id="contact-info">
+							<h4 class="faq-article-title">What is your contact information?</h4>
+							<div class="faq-article-content">
+								<p>Contact us on <a href="https://creativemarket.com/typebold">Creative Market</a> or send an email to <a href="mailto:typebold@gmail.com">typebold@gmail.com</a></p>
+							</div>
+						</div>
+						<!-- End of FAQ Article -->
+						
+						<!-- FAQ Article -->
+						<div class="faq-article" id="wordpress-version">
+							<h4 class="faq-article-title">Is there going to be a Wordpress version?</h4>
+							<div class="faq-article-content">
+								<p>We currently have not started any development on a Wordpress version. Contact us if you would like to be a partner in developing a Wordpress version.</p>
+							</div>
+						</div>
+
+						
+						<!-- FAQ Article -->
+						<div class="faq-article" id="what-versions">
+							<h4 class="faq-article-title">What's been changed?</h4>
+							<div class="faq-article-content">
+							<p>The following will be used to document version history and changes.</p>
+					
+					
+
+					<!-- Changelog item -->
+								<div id="v101" class="changelog-item js-changelog-item">
+									<!-- Changelog item header -->
+									<header class="changelog-header">
+										<h3 class="changelog-version">
+											v1.0.0
+										</h3>
+										<p class="changelog-date">2017 - 01 - 15</p>
+									</header>
+									<!-- End of Changelog item header -->
+									<!-- Changelog item description -->
+									<div class="changelog-update-descriptions">
+										<p class="changelog-update-description changelog-feature js-changelog-update-description" data-instafilta-category="feature">
+											<span class="changelog-type">launch</span> Initial release of theme. </p>
+										
+									</div>
+									<!-- End of Changelog item description -->
+									<!-- Changelog item files -->
+									<div class="changelog-files-changed">
+										<!-- Changelog files toolbar -->
+										<div class="changelog-files-changed-toolbar">
+											<ul class="changelog-files-changed-filters">
+												<li>
+													<span class="changelog-files-changed-filter js-changelog-file-filter" data-type="new">
+														<i class="fa fa-plus changelog-state-new"></i>new</span>
+												</li>
+												<li>
+													<span class="changelog-files-changed-filter js-changelog-file-filter" data-type="updated">
+														<i class="fa fa-refresh changelog-state-updated"></i>updated</span>
+												</li>
+												<li>
+													<span class="changelog-files-changed-filter js-changelog-file-filter" data-type="removed">
+														<i class="fa fa-times changelog-state-removed"></i>removed</span>
+												</li>
+											</ul>
+										</div>
+										<!-- End of Changelog files toolbar -->
+										<div class="js-changelog-files-scope">
+											<div class="changelog-file-changed js-changelog-file changelog-file-updated" data-instafilta-category="updated"> less/modules/_tags.less </div>
+											<div class="changelog-file-changed js-changelog-file changelog-file-updated" data-instafilta-category="updated"> less/modules/_menu-vertical.less </div>
+											<div class="changelog-file-changed js-changelog-file changelog-file-updated" data-instafilta-category="updated"> css/style.css </div>
+											<div class="changelog-file-changed js-changelog-file changelog-file-updated" data-instafilta-category="updated"> css/style.min.css </div>
+											<div class="changelog-file-changed js-changelog-file changelog-file-updated" data-instafilta-category="updated"> js/dev/modules.js </div>
+											<div class="changelog-file-changed js-changelog-file changelog-file-updated" data-instafilta-category="updated"> js/all.js </div>
+										</div>
+									</div>
+									<!-- End of Changelog item files -->
+									<div class="changelog-link"></div>
+								</div>
+								<!-- End of Changelog item -->
+							</div>
+						</div>
+					</div>
+					<!-- End of FAQ Article -->
+
+				</div>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<script src="js/all.js"></script>
+	<script src="js/custom.js"></script>
+	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+	<!-- 
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+    </script>
+     -->
+</body>
+
+</html>
